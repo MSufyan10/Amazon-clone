@@ -348,3 +348,14 @@ ul a{
   }
 }
 
+@media(max-width: 768px){
+  .box{
+    width: 48% !important;
+  }
+  .herosection{
+    height: 350px;
+  }
+}
+
+
+
