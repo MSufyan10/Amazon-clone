@@ -304,14 +304,17 @@ ul a{
       display: none;
       }
 
+  @media(max-width: 768px){
   .herosection{
     height: 200px;
+    background-position: center;
   }
-  
   .heromsg{
-    width: 95%;
-    font-size: 0.75rem;
-    text-align: center;
+    width: 90%;
+    font-size: 0.8rem;
+    bottom: 10px;
+    align-items: center;
+  }
   }
 
   .shopsection{
