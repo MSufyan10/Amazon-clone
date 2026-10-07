@@ -23,4 +23,3 @@ Responsive Amazon-inspired e-commerce homepage with navigation bar, hero banner,
 - **Vercel** - Hosting
 - **GitHub Pages** - Alternative hosting
 
-### 📁 Project Structure
