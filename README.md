@@ -2,7 +2,7 @@
 
 > **Live Demo:** https://amazon-clone-ms-ufyan10.vercel.app
 
-> **GitHub Pages:** MSufyan10/Amazon-clone
+> **GitHub Pages:** https://github.com/MSufyan10/Amazon-clone
 
 ### ⚠️ Disclaimer
 This is an **educational UI clone** built for learning purposes only. It is **NOT the real Amazon.com**. Not affiliated with Amazon.com, Inc. No real transactions, no user data collection, no payments.
