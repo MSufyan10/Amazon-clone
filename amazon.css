@@ -1,7 +1,7 @@
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -37,12 +37,12 @@
 
 .addfirst{
     color: #cccccc;
-    font-size: 0.85;
+    font-size: 0.85rem;
     margin-left: 15px;
 }
 
 .addsecond{
-    font-size: 1rem;
+    font-size: 0.85rem;
     margin-left: 3px;
 }
 
@@ -55,7 +55,6 @@
 
 .navsearch{
     display: flex;
-    background-color: aqua;
     justify-content: space-evenly;
     width: 620px;
     height: 40px;
@@ -142,6 +141,8 @@ span{
 .herosection{
     background-image: url(hero_image.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -151,7 +152,7 @@ span{
 .heromsg{
     background-color: white;
     color: black;
-    height: 35px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -226,7 +227,7 @@ ul{
 
 ul a{
     display: block;
-    font-size: o.85rem;
+    font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
 }
@@ -266,3 +267,84 @@ ul a{
 .copyright{
     font-size: 0.7rem;
 }
+
+@media(max-width: 768px){
+  .navbar{
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+  .navlogo{
+      width: 80px;
+      }
+ 
+  .navsearch{
+    width: 100%;
+    order: 5;
+  }
+  
+  .navaddress, .navsignin, .navreturn{
+    display: none;
+  }
+  
+  .panel{
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 0 10px;
+  }
+  
+  .paneloption{
+      width: auto;
+      }
+      
+  .paneldeals{
+      display: none;
+      }
+
+  .herosection{
+    height: 200px;
+  }
+  
+  .heromsg{
+    width: 95%;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .shopsection{
+    padding: 0 10px;
+  }
+  
+  .box{
+    width: 48%;
+    height: auto;
+  }
+  
+  .boximg{
+    height: 180px;
+  }
+  
+
+  .footpanel2{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .footpanel2 ul{
+    width: 45%;
+  }
+}
+
+@media(max-width: 480px){
+  .box{
+    width: 100%;
+  }
+}
+
