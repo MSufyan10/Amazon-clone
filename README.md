@@ -1,6 +1,7 @@
 # Amazon Clone - Educational Project
 
 > **Live Demo:** https://amazon-clone-ms-ufyan10.vercel.app
+
 > **GitHub Pages:** https://msufyan10.github.io/Amazon-clone/
 
 ### ⚠️ Disclaimer
